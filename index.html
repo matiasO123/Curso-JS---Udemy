@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Essentials</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <h1>Javascript Essentials</h1>
+        <label>Valor a imprimir!</label>
+        <input name="valor"> 
+        <div id="divBotones">
+        <button onclick="ImprimirValor()">Asignar valor!</button>
+        <button onclick="CambiarEstilo()">Cambiá el estilo!</button>
+        <button id="boton3">Mirá la consola!!</button>
+        </div>
+        <p id="valorRepetido">Acá va a aparecer lo que ingreses en el input!!</p>
+    </br></br></br></br>
+        <p id="valorRepetido">El select va a cambiar de color cada vez que lo apretes!!</p>
+        <p>Modificando los select vas a poder cambiar el color, el ancho y el alto del cuadrito</p>
+        <select id="selectingColor">
+            <option value="green">verde</option>
+            <option value="blue">azul</option>
+            <option value="red">rojo</option>
+            <option value="yellow">amarillo</option>
+        </select>
+        <select id="selectingAltura">
+            <option value="100px">100px</option>
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+            <option value="400px">400px</option>
+        </select>
+        <select id="selectingAncho">
+            <option value="100px">100px</option>
+            <option value="200px">200px</option>
+            <option value="300px">300px</option>
+            <option value="400px">400px</option>
+        </select>
+        
+        
+        <!-- Desde la consola, podemos modificar el texto document.getElementById('prueba').innerText = "Otro texto" -->
+    </body>
+    <script src="myapp.js"></script>
+</html>

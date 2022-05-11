@@ -1,0 +1,44 @@
+#divBotones{
+    margin: 20px;
+}
+
+body {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    color: darkgrey;
+}
+
+h1{
+    color: black;
+}
+
+
+select {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgrey;
+}
+
+div { 
+    margin: 20px;
+}
+
+button{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: darkgrey;
+    border-radius: 10px;
+    margin: 5px;
+    border-color: darkgrey;
+    border-style:  ridge;
+
+    
+}
+
+input{
+    color: darkgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
